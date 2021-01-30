@@ -29,5 +29,7 @@ public class App
         e.setEmpId(101);
         e.setEmpName("Sanket Khandre");
         
+        System.out.println( "Print  e :: "+e);
+        
     }
 }
