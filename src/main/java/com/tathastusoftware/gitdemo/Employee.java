@@ -4,6 +4,7 @@ public class Employee {
 	
 	private int empId;
 	private String empName;
+	private String department;
 	
 	public int getEmpId() {
 		return empId;
@@ -17,5 +18,14 @@ public class Employee {
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
+	
+	public String getDepartment(){
+	   return department;
+	}
+	
+	public void setDepartment(String department){
+	   this.department = department;
+	}
+
 
 }
