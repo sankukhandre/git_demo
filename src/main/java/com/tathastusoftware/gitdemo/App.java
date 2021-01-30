@@ -24,5 +24,10 @@ public class App
     {
         System.out.println( "Call addMethodToTest1() " );
         
+        Employee e = new Employee();
+        
+        e.setEmpId(101);
+        e.setEmpName("Sanket Khandre");
+        
     }
 }
